@@ -1,13 +1,12 @@
 <script lang="ts">
 	import { supabase } from '$lib/supabase';
 	import SectionWrapper from './SectionWrapper.svelte';
+	import { goto } from '$app/navigation';
 
 	let cipherId = '';
 	let email = '';
 	let dob = '';
 	let userMessage = 'Enter details to check membership.';
-
-	import { goto } from '$app/navigation'; // Add this at the top
 
 	const checkMembership = async () => {
 		if (!cipherId || !email || !dob) {
