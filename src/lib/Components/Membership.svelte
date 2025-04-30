@@ -7,9 +7,11 @@
 	let dob = '';
 	let userMessage = 'Enter details to check membership.';
 
+	import { goto } from '$app/navigation'; // Add this at the top
+
 	const checkMembership = async () => {
 		if (!cipherId || !email || !dob) {
-			userMessage = '⚠️ Please fill in all fields.';
+			userMessage = '⚠ Please fill in all fields.';
 			return;
 		}
 
@@ -25,6 +27,11 @@
 			userMessage = '❌ No member found with the provided Cipher ID, Email, and Date of Birth.';
 		} else {
 			userMessage = `✅ Member Found: ${data.name} (${data.department})`;
+			goto(`?found=true&cipherId=${encodeURIComponent(cipherId)}`, {
+				replaceState: false,
+				keepFocus: true,
+				noScroll: true
+			});
 		}
 	};
 </script>
