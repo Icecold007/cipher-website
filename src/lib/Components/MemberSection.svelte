@@ -7,7 +7,7 @@
 			name: 'Prof. Debdatta Kandar',
 			role: 'Patron',
 			description: 'HOD, IT Dept.',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: '',
 			github: ''
 		},
@@ -15,7 +15,7 @@
 			name: 'Dr. Sufal Das',
 			role: 'Teacher in-charge',
 			description: 'Ass. Professor, IT Dept.',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/dr-sufal-das-96a94b52/',
 			github: ''
 		},
@@ -23,7 +23,7 @@
 			name: 'Mohammad Saqib',
 			role: 'General Secretary',
 			description: 'BTech IT 4th Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/saqib745/',
 			github: ''
 		},
@@ -32,7 +32,7 @@
 			name: 'Abhi Nithaware',
 			role: 'Asst. General Secretary',
 			description: 'BTech IT 4th Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/abhi-nitnaware/',
 			github: ''
 		},
@@ -40,7 +40,7 @@
 			name: 'Raje Alom',
 			role: 'Finance Secretary',
 			description: 'BTech IT 4th Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/raje-alom-061773238/',
 			github: ''
 		},
@@ -48,7 +48,7 @@
 			name: 'Pyboyina Viswaja',
 			role: 'Creative Secretary',
 			description: 'BTech IT 4th Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/pyboyina-viswaja/',
 			github: ''
 		},
@@ -56,7 +56,7 @@
 			name: 'Ujjwal Kumar',
 			role: 'Academic Secretary',
 			description: 'BTech IT 4th Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/ujjwal-kumar-b44564238/',
 			github: ''
 		},
@@ -64,7 +64,7 @@
 			name: 'Palmsan A Sangma',
 			role: 'Outreach Secretary',
 			description: 'BTech IT 4th Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/palmsan-a-sangma-907250238/',
 			github: ''
 		},
@@ -72,7 +72,7 @@
 			name: 'Bikash Barua',
 			role: 'Publication Secretary',
 			description: 'BTech IT 4th Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/bikash-barua-662804217/',
 			github: ''
 		},
@@ -80,7 +80,7 @@
 			name: 'Ibapalei Shadap',
 			role: 'Database Coordinator Secretary',
 			description: 'BTech IT 4th Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/ibapalei-shadap-b4a497262/',
 			github: ''
 		},
@@ -88,7 +88,7 @@
 			name: 'Liza Mehta',
 			role: 'Executive Secretary',
 			description: 'BTech IT 4th Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: '',
 			github: ''
 		},
@@ -96,7 +96,7 @@
 			name: 'Bimal Mochahary',
 			role: 'Asst. Finance Sec',
 			description: 'BTech IT 3rd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: '',
 			github: ''
 		},
@@ -104,7 +104,7 @@
 			name: 'Hansh Raj',
 			role: 'Asst. Academic Sec I',
 			description: 'BTech IT 3rd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/hansh-raj-394a43312/',
 			github: ''
 		},
@@ -112,7 +112,7 @@
 			name: 'Soumojit Bhuin',
 			role: 'Asst. Academic Sec II',
 			description: 'BTech IT 2nd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/soumojit-bhuin-313328345/',
 			github: ''
 		},
@@ -120,7 +120,7 @@
 			name: 'Rehana Debbarma',
 			role: 'Asst. Creative Sec',
 			description: 'BTech IT 3rd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: '',
 			github: ''
 		},
@@ -128,7 +128,7 @@
 			name: 'Erisaca Vaichei',
 			role: 'Asst. Outreach Sec',
 			description: 'BTech IT 3rd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: '',
 			github: ''
 		},
@@ -136,7 +136,7 @@
 			name: 'Nabarup Daimary',
 			role: 'Asst. Publication Sec',
 			description: 'BTech IT 3rd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/nabarup-daimary-859050258/',
 			github: ''
 		},
@@ -144,7 +144,7 @@
 			name: 'Dibakar Patar',
 			role: 'Asst. Database Coordinator Sec',
 			description: 'BTech IT 3rd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/dibakarpatar/',
 			github: ''
 		},
@@ -152,7 +152,7 @@
 			name: 'Sajeed Ahmed',
 			role: 'Asst. Executive Sec I',
 			description: 'BTech IT 3rd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/sajeed-ahmed-ba5027203/',
 			github: ''
 		},
@@ -160,7 +160,7 @@
 			name: 'Nikunj Maheshwari',
 			role: 'Asst. Executive Sec II',
 			description: 'BTech IT 2nd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/nikunjm111/',
 			github: ''
 		},
@@ -168,7 +168,7 @@
 			name: 'Sourav Rabha',
 			role: 'Asst. Executive Sec III',
 			description: 'BTech IT 2nd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/sourav-rabha-727656332/',
 			github: ''
 		},
@@ -176,7 +176,7 @@
 			name: 'Kumar Kartik',
 			role: 'Asst. Executive Sec IV',
 			description: 'BTech IT 2nd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/kumar-kartik-ba6b10311/',
 			github: ''
 		},
@@ -184,7 +184,7 @@
 			name: 'Drona Bopche',
 			role: 'Asst. Executive Sec V',
 			description: 'BTech IT 2nd Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/drona-bopche-2345292b1/',
 			github: ''
 		},
@@ -192,7 +192,7 @@
 			name: 'Anurag Saud',
 			role: 'Web Developer',
 			description: 'BTech ECE 1st Year',
-			image: Saqib,
+			// image: Saqib,
 			linkedin: 'https://www.linkedin.com/in/anuragsaud/',
 			github: ''
 		}
@@ -205,7 +205,7 @@
 		<div class="grid">
 			{#each members as member}
 				<div class="member-card">
-					<img src={member.image} alt={member.name} />
+					<!-- <img src={member.image} alt={member.name} /> -->
 					<h3>{member.name}</h3>
 					<p>{member.role}</p>
 					<p>{member.description}</p>

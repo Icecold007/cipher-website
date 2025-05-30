@@ -69,19 +69,21 @@
 	}
 
 	h1 {
-		font-size: 5rem;
-		margin-bottom: 6rem;
+		font-size: 3rem;
+		margin-bottom: 4rem;
 		color: #ff00ff;
 	}
 
 	.membership-card {
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
+		flex-direction: column;
+		align-items: center;
 		gap: 2rem;
 		width: 100%;
 		max-width: 900px;
 		margin: 0 auto;
+		padding: 0 1rem;
+		box-sizing: border-box;
 	}
 
 	.form-box,
@@ -91,9 +93,7 @@
 		border-radius: 1rem;
 		box-shadow: 0 4px 25px rgba(245, 3, 233, 0.2);
 		width: 100%;
-		height: 100%;
 		max-width: 433px;
-		max-height: 1500px;
 		box-sizing: border-box;
 	}
 
@@ -126,7 +126,7 @@
 	}
 
 	button:hover {
-		background: #ff00ff;
+		background: #e600e6;
 	}
 
 	.result-box h3 {
@@ -145,12 +145,14 @@
 		.membership-card {
 			flex-direction: row;
 			align-items: flex-start;
+			justify-content: center;
 		}
 	}
 
 	@media (max-width: 767px) {
-		h2 {
-			font-size: 1.8rem;
+		h1 {
+			font-size: 2rem;
+			margin-bottom: 2rem;
 		}
 
 		.membership-card {
@@ -160,7 +162,8 @@
 
 		.form-box,
 		.result-box {
-			width: 90%;
+			width: 100%;
+			max-width: 90%;
 		}
 	}
 </style>

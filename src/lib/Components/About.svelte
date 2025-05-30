@@ -4,6 +4,17 @@
 </script>
 
 <SectionWrapper divId="about">
+	<div class="hunt-container">
+		<h1 class="hunt-title">Website to Treasure Hunt 3.0</h1>
+		<button
+			on:click={() => {
+				window.open('https://treasure-hunt-blue.vercel.app/1', '_blank');
+			}}
+			class="hunt-button"
+		>
+			Treasure Hunt 3.0
+		</button>
+	</div>
 	<div class="About-club bg-black">
 		<div class="About">
 			<h1 class="text-bold pink title Heading">Discover Cipher's Essence</h1>
@@ -35,18 +46,24 @@
 				</div>
 				<div class="letter">
 					<p class="text-white">
-						Sample [Welcome to Cipher, the premier IT club at North-Eastern Hill University,
-						Shillong. As the president of this vibrant community, I am thrilled to invite you to
-						embark on a journey of learning, innovation, and collaboration. At Cipher, we believe in
-						nurturing talent, fostering creativity, and building a supportive environment where
-						everyone can thrive. Our club is a hub for tech enthusiasts who are eager to explore the
-						ever-evolving world of technology. Whether you're just starting out or you're an
-						experienced coder, Cipher has something for everyone. From workshops and hackathons to
-						study sessions and collaborative projects, we aim to provide opportunities that help you
-						grow both personally and professionally. Together, let's push the boundaries of what's
-						possible and make a positive impact through technology. I look forward to seeing you at
-						our events and working together to create something extraordinary. Warm regards, [Your
-						President's Name] President, Cipher]
+						Hello everyone! 👋 I’m Mohammad Saqib, a final-year B.Tech IT student and the President
+						of Cipher Club, the official IT Club of North-Eastern Hill University, Shillong. At
+						Cipher, we believe that technology is for everyone — and so is our club. Whether you’re
+						from IT, CSE, ECE, Physics, Management, Sociology, English, Commerce, or any other
+						department, your ideas, skills, and curiosity are welcome here. Technology today touches
+						every field — from science and engineering to business, art, and social sciences. That’s
+						why Cipher is more than just a tech club. We’re a creative community of thinkers,
+						builders, coders, designers, analysts, writers, innovators, and change-makers from all
+						backgrounds working together to create something meaningful. We host a variety of
+						activities such as coding competitions, workshops, hackathons, app-building challenges,
+						design sprints, tech talks, collaborative projects, and even interdisciplinary events
+						that blend tech with creativity, research, and real-world problem-solving. No matter
+						your skill level or stream, if you're curious, motivated, and ready to learn, Cipher is
+						the perfect platform for you. We believe in learning by doing, supporting each other,
+						and turning bold ideas into real impact. So come be a part of a club where passion meets
+						purpose and students from all departments unite to shape the future through innovation
+						and collaboration. Looking forward to seeing you at our events and creating something
+						extraordinary together! Warm regards, Mohammad Saqib President, Cipher Club
 					</p>
 				</div>
 			</div>
@@ -70,6 +87,38 @@
 		text-align: center;
 		padding: 2rem 1rem;
 		font-size: 3.5rem;
+	}
+	.hunt-container {
+		width: 100vw;
+		text-align: center;
+		padding: 2rem;
+		background: #0b0b0b;
+		color: white;
+		overflow-x: hidden;
+		box-sizing: border-box;
+	}
+
+	.hunt-title {
+		font-size: 2.5rem;
+		color: #ff00ff;
+		font-weight: bold;
+		margin-bottom: 2rem;
+	}
+
+	.hunt-button {
+		padding: 1rem 2rem;
+		background-color: #ff00ff;
+		color: #000;
+		border: none;
+		border-radius: 0.5rem;
+		font-size: 1.1rem;
+		font-weight: bold;
+		cursor: pointer;
+		transition: background 0.3s ease;
+	}
+
+	.hunt-button:hover {
+		background-color: #e600e6;
 	}
 
 	@media (max-width: 768px) {
@@ -121,6 +170,17 @@
 	@media (max-width: 768px) {
 		.letter {
 			text-align: center;
+		}
+	}
+	@media (max-width: 600px) {
+		.hunt-title {
+			font-size: 1.75rem;
+		}
+
+		.hunt-button {
+			width: 100%;
+			max-width: 300px;
+			font-size: 1rem;
 		}
 	}
 </style>

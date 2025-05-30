@@ -1,6 +1,7 @@
 <script>
 	import { fade } from 'svelte/transition';
 	import { writable } from 'svelte/store';
+	import treasure2 from '$assets/tre3.png';
 	import Ethnic from '$assets/eth.png';
 	import Gaming from '$assets/game.png';
 	import quiz from '$assets/quiz.png';
@@ -32,6 +33,11 @@
 			title: 'TREASURE HUNT 2.0',
 			desc: '',
 			image: treasure
+		},
+		{
+			title: 'TREASURE HUNT 3.0',
+			desc: '',
+			image: treasure2
 		}
 	];
 
