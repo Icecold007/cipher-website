@@ -4,7 +4,7 @@
 </script>
 
 <SectionWrapper divId="about">
-	<div class="hunt-container">
+	<!-- <div class="hunt-container">
 		<h1 class="hunt-title">Website to Treasure Hunt 3.0</h1>
 		<button
 			on:click={() => {
@@ -14,7 +14,7 @@
 		>
 			Treasure Hunt 3.0
 		</button>
-	</div>
+	</div> -->
 	<div class="About-club bg-black">
 		<div class="About">
 			<h1 class="text-bold pink title Heading">Discover Cipher's Essence</h1>
